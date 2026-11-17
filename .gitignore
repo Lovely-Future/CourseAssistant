@@ -1,0 +1,31 @@
+# Course notes and AI working documents
+/docs/
+/AGENTS.md
+/.opencode/
+/.planning/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Dependencies, virtual environments and build output
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+dist-ssr/
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration and generated data
+.env
+.env.*
+!.env.example
+!frontend/.env.development
+backend/uploads/
+backend/data/
+*.log
+*.local
+.DS_Store
